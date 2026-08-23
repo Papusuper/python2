@@ -28,3 +28,6 @@ print(1+2)
 print(mi_texto2+mi_texto3)
 print("samuel"*18)
 
+#constantes 
+
+
