@@ -7,7 +7,7 @@ print(frutas)
 frutas.insert(1,"melon")
 print(frutas)
 #revomer un elemento de la lista 
-frutas.revome("piña")
+frutas.remove("piña")
 #remover un elemento de la lista de una posicion
 frutas.pop(3) 
 #remover el ultimo elemento 
@@ -44,4 +44,14 @@ print(new_list)
 new_list_numeros = [x for x in numeros if x % 2 == 0]
 print(new_list_numeros)
 
-        
+#ordenar otra lista 
+frutas.sort()
+print(frutas)
+
+#copiar una lista 
+frutas_copy = frutas.copy()
+print(frutas)    
+
+#combinar una lista a otra 
+combindas = frutas + numeros 
+print(combindas)
