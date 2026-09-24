@@ -2,6 +2,7 @@
 
 i=1
 
+#while es un ciclo 
 while i < 6:
     print(i)
     # i = i + 1 
