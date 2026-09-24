@@ -11,3 +11,14 @@ print(x & y)
 # tira un error ya que el nuemro no se esta declaranod correctamnete el en print  
 x = 6
 print(x + "6")
+
+#video 3
+str = "hello_python"
+
+print(str[1:4])
+
+
+
+
+
+
